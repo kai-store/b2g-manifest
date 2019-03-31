@@ -1,0 +1,16 @@
+
+<?xml version="1.0" ?>
+<manifest>
+
+  <remote fetch="https://github.com/apitrace/" name="apitrace"/>
+  <remote fetch="ssh://git@git.kaiostech.com/pier/" name="pier"/>
+
+  <default remote="pier" revision="refs/tags/kaios_jio_pier_2_5_20190118_VoWIFI"/>
+
+  <!-- KaiOS specific things -->
+  <project name="gaia" path="gaia"/>
+
+  <!-- prebuilt library for KaiOS  -->
+  <project name="platform_external_librt9" path="external/librt9"/>
+
+</manifest>
